@@ -2,11 +2,9 @@ import React from "react";
 
 export const themes = {
   red: {
-    name: "red",
-    li: "white",
-    row: "red",
-    a: "white",
-    ul: "red"
+    menu: "red",
+    bannercontainer: "red",
+    btn1: "red"
   },
   blue: {
     name: "blue",

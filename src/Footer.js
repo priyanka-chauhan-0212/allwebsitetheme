@@ -13,10 +13,10 @@ export default function Footer() {
       </div>
       <div className="footer">
         <div className="icons">
-          <i class="fa fa-facebook-official" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i class="fa fa-twitter-square" aria-hidden="true"></i>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <i className="fa fa-facebook-official" aria-hidden="true"></i>
+          <i className="fa fa-instagram" aria-hidden="true"></i>
+          <i className="fa fa-twitter-square" aria-hidden="true"></i>
+          <i className="fa fa-envelope" aria-hidden="true"></i>
         </div>
       </div>
       <div className="footer">
