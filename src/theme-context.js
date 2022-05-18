@@ -3,7 +3,7 @@ import React from "react";
 export const themes = {
   red: {
     name: "red",
-    menu: "red",
+    menu: "red ",
     contain: "red",
     bannercontainer: "red",
     btn1: "red"

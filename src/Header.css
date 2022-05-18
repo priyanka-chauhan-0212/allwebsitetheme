@@ -15,8 +15,16 @@
 .sample {
   float: left;
 }
-
-.sample .menu {
+.menured {
+  color: red;
+}
+.menublue {
+  color: blue;
+}
+.menuyellow {
+  color: gold;
+}
+.sample {
   display: block;
   color: white;
   text-align: center;
