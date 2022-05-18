@@ -11,11 +11,12 @@
   margin: 5px;
 }
 .red {
-  background-color: tomato;
+  background-color: red;
   color: white;
 }
+
 .blue {
-  background-color: rgb(13, 85, 156);
+  background-color: dodgerblue;
   color: white;
 }
 .yellow {
@@ -23,12 +24,12 @@
   color: #222;
 }
 .purple {
-  background-color: rgb(90, 4, 90);
+  background-color: purple;
   color: #fff;
 }
 
 .maroon {
-  background-color: rgb(41, 1, 1);
+  background-color: rgb(122, 33, 33);
   color: #fff;
 }
 .green {

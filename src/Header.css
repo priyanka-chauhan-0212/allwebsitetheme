@@ -1,4 +1,4 @@
-.nav-header {
+.navheader {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,24 +12,18 @@
   align-items: center;
 }
 
-/* li {
+.sample {
   float: left;
-} */
+}
 
-/* li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-} */
-.menubar .menu {
+.sample .menu {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-.menubar .menu:hover:not(.active) {
+
+.sample .menu:hover:not(.active) {
   background-color: rgb(184, 94, 94);
 }

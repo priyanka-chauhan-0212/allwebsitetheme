@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Banner.css";
 import cardimg from "./Assests/card-img.jpg";
+import { ThemeContext } from "./theme-context";
 
 export default function Banner() {
+  const themeContext = useContext(ThemeContext);
   return (
     // three card design
     <div className="section">
@@ -11,8 +13,8 @@ export default function Banner() {
           <div className="card-image">
             <img className="image" src={cardimg} alt=""></img>
           </div>
-          <div className="bannercontainer">
-            <h4>
+          <div>
+            <h4 className={themeContext.theme.bannercontainer}>
               <b>John Doe</b>
             </h4>
             <p>Architect & Engineer</p>

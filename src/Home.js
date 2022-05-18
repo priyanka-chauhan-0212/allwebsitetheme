@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import img from "./Assests/Background-.jpg";
 import "./Home.css";
+import { ThemeContext } from "./theme-context";
 
 export default function Home() {
+  const themeContext = useContext(ThemeContext);
   return (
-    <div className="homepage">
+    <div className={themeContext.theme.homepage}>
       <div className="image">
         <img src={img} alt="" height="500px" width="100%"></img>
 
-        <div className="contain">
+        <div className={themeContext.theme.contain}>
           <h2>Background Image</h2>
 
           <p>
@@ -17,7 +19,7 @@ export default function Home() {
             element.
           </p>
 
-          <button className="btn">click here </button>
+          <button className={themeContext.theme.btn}>click here </button>
         </div>
       </div>
     </div>
