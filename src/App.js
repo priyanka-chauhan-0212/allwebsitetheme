@@ -4,6 +4,7 @@ import Multitheme from "./Multitheme";
 import Header from "./Header";
 import Home from "./Home";
 import Banner from "./Banner";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Header />
         <Home />
         <Banner />
+        <Footer />
       </div>
     </Themeprovider>
   );
