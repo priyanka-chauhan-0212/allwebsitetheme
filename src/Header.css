@@ -24,12 +24,25 @@
 .menuyellow {
   color: gold;
 }
+.menupurple {
+  color: blueviolet;
+}
+.menublack {
+  color: white;
+}
+.menumaroon {
+  color: maroon;
+}
+.menugreen {
+  color: green;
+}
 .sample {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #333;
 }
 
 .sample .menu:hover:not(.active) {

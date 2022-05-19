@@ -23,8 +23,8 @@ export default function Header() {
             Contact
           </a>
         </li>
-        <li className={themeContext.theme.menubar}>
-          <a className={themeContext.theme.menu} href="#about">
+        <li className="sample">
+          <a className={themeContext.theme.menupurple} href="#about">
             About
           </a>
         </li>

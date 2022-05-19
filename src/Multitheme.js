@@ -33,6 +33,12 @@ export default function Multitheme() {
             onClick={() => themeContext.changeTheme(themes.purple)}
           ></div>
           <div
+            className={`theme-button black ${
+              themeContext.theme.name === "black" ? "active" : ""
+            }`}
+            onClick={() => themeContext.changeTheme(themes.black)}
+          ></div>
+          <div
             className={`theme-button maroon ${
               themeContext.theme.name === "maroon" ? "active" : ""
             }`}
